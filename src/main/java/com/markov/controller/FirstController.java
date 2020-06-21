@@ -1,6 +1,7 @@
 
 package com.markov.controller;
 
+import com.markov.domain.Account;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -17,6 +18,11 @@ public class FirstController {
 
         System.out.println(username);
         System.out.println(password);
+        return "success";
+    }
+    @RequestMapping(path = "saveAccount")
+    private String saveAccount(Account account){
+        System.out.println(account);
         return "success";
     }
 }
