@@ -14,6 +14,9 @@
 <h3>程序</h3>
 <a href="response/testServlet">Servlet原生的API</a>
 <a href="response/testVoid">Servlet原生的API</a>
+<a href="response/testModelAndView">Servlet原生的API</a>
+<a href="response/testForwardOrRedict">Servlet原生的API</a>
+
 
 
 
