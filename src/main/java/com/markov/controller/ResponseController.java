@@ -59,7 +59,5 @@ public class ResponseController {
         user.setUsername("123");
         user.setAge("123");
         return user;
-        user.getAge().endsWith()
-
     }
 }
